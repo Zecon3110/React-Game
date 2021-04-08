@@ -1,6 +1,6 @@
 import React from "react";
 
-let element = (
+let login = (
     <div className="body">
         <div id="login">
                 <div className="form-group">
@@ -17,6 +17,6 @@ let element = (
     </div>
 )
 
-export function Element() {
-    return element;
+export function Login() {
+    return login;
 }

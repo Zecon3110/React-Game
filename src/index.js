@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Content/CSS/StyleSheet.css";
-import "./Content/CSS/game.css"
-import { Element } from "./Content/JS/login";
+import "./CSS/StyleSheet.css";
+import "./CSS/game.css"
+import { Login } from "./JS/login";
+import {GameBoard} from "./JS/gameBoard";
 /*import "./folder/file.css"*/
 
 ReactDOM.render(
-    <Element />,
+    <GameBoard />,
     document.getElementById("root")
 );
