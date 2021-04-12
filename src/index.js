@@ -7,6 +7,6 @@ import {GameBoard} from "./JS/gameBoard";
 /*import "./folder/file.css"*/
 
 ReactDOM.render(
-    <GameBoard />,
+    <Login />,
     document.getElementById("root")
 );
