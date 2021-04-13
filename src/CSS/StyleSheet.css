@@ -16,7 +16,6 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid green;
 }
 
 /*Login*/
@@ -92,7 +91,7 @@ body {
 }
 
 .text-chat {
-    width: 350px;
+    width: 288px;
     padding: 0.375rem 0.5em;
 }
 

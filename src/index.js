@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./CSS/StyleSheet.css";
 import "./CSS/game.css"
-import { Login } from "./JS/login";
-import {GameBoard} from "./JS/gameBoard";
+import {GameComponent} from "./JS/GameComponent";
 /*import "./folder/file.css"*/
 
 ReactDOM.render(
-    <Login />,
+    <GameComponent />,
     document.getElementById("root")
 );
