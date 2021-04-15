@@ -8,9 +8,13 @@ export function GameComponent() {
     function onLogIn(token) {
         setAuthToken(token);
     }
+
+    function onDisconnect() {
+        setAuthToken("");
+    }
     
-    if(authToken) {
-        return <GameBoard authSessionToken={authToken} /> 
+    if(authToken !== "") {
+        return <GameBoard authSessionToken={authToken} onDisconnect={onDisconnect} /> 
     }
     else {
         return <Login authSessionToken={onLogIn} />

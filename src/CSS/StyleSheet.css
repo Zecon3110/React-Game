@@ -23,7 +23,6 @@ body {
     max-width: 360px;
     margin: 15% auto;
     text-align: center;
-    border: 1px solid blue;
 }
 
 .form-group {
@@ -56,6 +55,7 @@ body {
     color: #fff;
     background-color: #17a2b8;
     border-color: #17a2b8;
+    cursor: pointer;
 }
 
 .btn-login {
@@ -78,16 +78,35 @@ body {
 }
 
 .chat-box {
-    width: 100%;
+    width: 450px;
+    height: 160px;
+    border-radius: 3px;
+    border: 1px solid hotpink;
+}
+
+.chat-box .chat-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-basis: 100%;
     height: 100%;
-    max-width: 450px;
-    max-height: 175px;
-    resize: none;
+    align-content: flex-end;
+}
+
+.chat-box .message {
+    padding: 2px 4px;
+    margin: 2px;
+    display: flex;
+    border-bottom: 1px solid #ccc; 
+    flex-direction: row;
+    flex-basis: 100%;
 }
 
 .userInput {
-    width: 100%;
-    max-width: 450px;
+    width: 450px;
+    padding-top: 5px;
+    border-radius: 3px;
 }
 
 .text-chat {
@@ -96,5 +115,5 @@ body {
 }
 
 .userInput .btn {
-    margin-left: 0.5em;
+    margin: 0 0.25em;
 }
